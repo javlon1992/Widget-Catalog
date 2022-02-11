@@ -55,7 +55,6 @@ class _HomePageState extends State<HomePage> {
                   onPressed: () {
                     Navigator.of(context).pushNamed(SingleChildScrollPage.id);
                   },
-                  //
                   child: const Text("Single Child Scroll View", style: TextStyle(fontSize: 20),),
                   textColor: Colors.white,
                   color: Colors.blueAccent,
